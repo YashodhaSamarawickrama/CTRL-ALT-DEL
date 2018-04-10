@@ -16,10 +16,7 @@ public class CtrlAltDel extends CharlieBot
 	int turnDirection = 1; // Clockwise or counterclockwise	
 
 	public void run() {
-		// Initialization of the robot should be put here
-
-		// After trying out your robot, try uncommenting the import at the top,
-		// and the next line:
+		
 
 		setColors(Color.yellow,Color.white,Color.black); // body,gun,radar
 
@@ -43,12 +40,12 @@ public class CtrlAltDel extends CharlieBot
 	}
 
 	/**
-	 * onScannedRobot: What to do when you see another robot
+	 * onScannedRobot: What to do when it sees another robot
 	 */
 		
 
 	public void onRobotDetected(ScannedRobotEvent e) {
-		// Replace the next line with any behavior you would like
+		
 		stop();
 		turnGunLeft(210);
 		
@@ -76,10 +73,10 @@ public class CtrlAltDel extends CharlieBot
 	}
 
 	/**
-	 * onHitByBullet: What to do when you're hit by a bullet
+	 * onHitByBullet: What to do when it is hit by a bullet
 	 */
 	public void onHitByBullet(HitByBulletEvent e) {
-		// Replace the next line with any behavior you would like
+		
 		//back(100);
 		turnRight(10);
 		//turnGunRight(10);
@@ -88,10 +85,10 @@ public class CtrlAltDel extends CharlieBot
 	}
 	
 	/**
-	 * onHitWall: What to do when you hit a wall
+	 * onHitWall: What to do when it hits a wall
 	 */
 	public void onHitWall(HitWallEvent e) {
-		// Replace the next line with any behavior you would like
+		
 		//back(100);
 		turnRight(90);
 		//turnGunRight(90);
