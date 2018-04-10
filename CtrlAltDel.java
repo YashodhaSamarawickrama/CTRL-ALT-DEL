@@ -6,7 +6,7 @@ import java.awt.Color;
 // API help : http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html
 
 /**
- * CtrlAltDel - a robot by (your name here)
+ *A robot by CtrlAltDel 
  */
 public class CtrlAltDel extends CharlieBot
 {
